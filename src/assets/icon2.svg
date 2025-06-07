@@ -1,0 +1,35 @@
+<!-- filepath: c:\Users\IDL\OneDrive\Desktop\MernStackProject\client\src\assets\icon.svg -->
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dripGradient" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C6FB"/>
+      <stop offset="1" stop-color="#005BEA"/>
+    </linearGradient>
+    <filter id="dripShadow" x="-10" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#005BEA" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Main drippy blob -->
+  <path filter="url(#dripShadow)" d="M60 15
+    C80 10, 110 30, 100 60
+    C110 80, 80 110, 60 100
+    C40 110, 10 80, 20 60
+    C10 30, 40 10, 60 15
+    Z
+    M60 100
+    Q62 110, 70 115
+    Q65 110, 68 100
+    Z
+    M60 100
+    Q58 110, 50 115
+    Q55 110, 52 100
+    Z"
+    fill="url(#dripGradient)"
+    stroke="#222"
+    stroke-width="2"
+  />
+  <!-- Shine effect -->
+  <ellipse cx="70" cy="40" rx="18" ry="8" fill="#fff" fill-opacity="0.18"/>
+  <!-- Drip highlights -->
+  <ellipse cx="60" cy="110" rx="4" ry="8" fill="#fff" fill-opacity="0.22"/>
+</svg>

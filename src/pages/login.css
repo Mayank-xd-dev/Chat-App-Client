@@ -1,0 +1,73 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8847db, #00c9ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+.login-container {
+  width: 100%;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 16px;
+  min-height: 600px;
+}
+
+.left-panel {
+  flex: 1;
+  background: linear-gradient(45deg, #419aff, #c32bff);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.left-panel .logo {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-style {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .form-box {
+    flex-direction: column-reverse;
+  }
+
+  .left-panel {
+    padding: 2rem;
+  }
+
+  .right-panel {
+    padding: 2rem;
+  }
+}
