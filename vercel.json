@@ -1,3 +1,11 @@
 {
+  "version": 2,
+  "name": "my-nextjs-app",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
